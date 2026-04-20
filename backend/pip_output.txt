@@ -1,0 +1,42 @@
+﻿Requirement already satisfied: fastapi in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (0.115.0)
+Requirement already satisfied: uvicorn in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (0.30.6)
+Requirement already satisfied: python-multipart in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (0.0.24)
+Requirement already satisfied: Pillow in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (12.2.0)
+Requirement already satisfied: opencv-python-headless in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (4.13.0.92)
+Requirement already satisfied: numpy in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (2.4.4)
+Requirement already satisfied: starlette<0.39.0,>=0.37.2 in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (from fastapi) (0.38.6)
+Requirement already satisfied: pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (from fastapi) (2.12.5)
+Requirement already satisfied: typing-extensions>=4.8.0 in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (from fastapi) (4.15.0)
+Requirement already satisfied: click>=7.0 in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (from uvicorn) (8.3.2)
+Requirement already satisfied: h11>=0.8 in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (from uvicorn) (0.16.0)
+Requirement already satisfied: colorama in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (from click>=7.0->uvicorn) (0.4.6)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi) (0.7.0)
+Requirement already satisfied: pydantic-core==2.41.5 in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi) (2.41.5)
+Requirement already satisfied: typing-inspection>=0.4.2 in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi) (0.4.2)
+Requirement already satisfied: anyio<5,>=3.4.0 in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (from starlette<0.39.0,>=0.37.2->fastapi) (4.13.0)
+Requirement already satisfied: idna>=2.8 in c:\users\farka\.gemini\antigravity\scratch\authentify\backend\venv\lib\site-packages (from anyio<5,>=3.4.0->starlette<0.39.0,>=0.37.2->fastapi) (3.11)
+.\venv\Scripts\pip.exe : 
+At line:1 char:1
++ .\venv\Scripts\pip.exe 
+install fastapi uvicorn 
+python-multipart Pillo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (:  
+  String) [], RemoteExc   
+ eption
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+[notice] A new release of 
+pip is available: 24.3.1 
+-> 26.0.1
+[notice] To update, run: C
+:\Users\farka\.gemini\anti
+gravity\scratch\authentify
+\backend\venv\Scripts\pyth
+on.exe -m pip install 
+--upgrade pip

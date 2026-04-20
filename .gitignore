@@ -1,0 +1,60 @@
+# Virtual Environment
+backend/venv/
+backend/__pycache__/
+backend/modules/__pycache__/
+.venv/
+env/
+ENV/
+
+# Node modules
+frontend/node_modules/
+node_modules/
+
+# Build artifacts
+frontend/dist/
+frontend/build/
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.toast
+.wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Analysis Data (Don't commit user uploads or results)
+backend/uploads/*
+backend/results/*
+!backend/uploads/.gitkeep
+!backend/results/.gitkeep
+
+# Logs and temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.stylelintcache
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# User specific
+.vscode/
+.idea/
+*.swp
+*.swo
