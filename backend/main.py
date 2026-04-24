@@ -18,6 +18,7 @@ from typing import Dict, Any
 
 import cv2
 import numpy as np
+import pytesseract
 import fitz  # PyMuPDF for PDF extraction
 from fastapi import FastAPI, File, UploadFile, HTTPException, Response
 from fastapi.middleware.cors import CORSMiddleware
@@ -30,7 +31,7 @@ from modules.signature_verification import run_signature_analysis
 from modules.clone_detection import run_clone_detection
 from modules.metadata_analysis import run_metadata_analysis
 from modules.report_generator import generate_pdf_report
-
+pytesseract.pytesseract.tesseract_cmd = os.getenv("TESSERACT_PATH")
 
 app = FastAPI(
     title="Authentify API",
