@@ -3,7 +3,7 @@
   "project": {
     "name": "Authentify",
     "repo_url": "Ameya1605/Authentify",
-    "project_type": "saas",
+    "project_type": "api_only",
     "is_ai_enabled": true
   },
   "structure": "monorepo",
