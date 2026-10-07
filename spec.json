@@ -14,8 +14,69 @@
   "enums": [],
   "relations": [],
   "database": [],
-  "endpoints": [],
+  "endpoints": [
+    {
+      "method": "GET",
+      "route": "/",
+      "linked_table": null,
+      "auth_required": true,
+      "auth_type": "bearer",
+      "roles": [],
+      "request_schema": {},
+      "response_schema": {},
+      "code": null
+    },
+    {
+      "method": "GET",
+      "route": "/api/health",
+      "linked_table": null,
+      "auth_required": true,
+      "auth_type": "bearer",
+      "roles": [],
+      "request_schema": {},
+      "response_schema": {},
+      "code": null
+    },
+    {
+      "method": "POST",
+      "route": "/api/analyze",
+      "linked_table": null,
+      "auth_required": true,
+      "auth_type": "bearer",
+      "roles": [],
+      "request_schema": {},
+      "response_schema": {},
+      "code": null
+    },
+    {
+      "method": "POST",
+      "route": "/api/report/pdf",
+      "linked_table": null,
+      "auth_required": true,
+      "auth_type": "bearer",
+      "roles": [],
+      "request_schema": {},
+      "response_schema": {},
+      "code": null
+    }
+  ],
   "ui_components": [],
-  "features": [],
+  "features": [
+    {
+      "name": "Analyze Feature",
+      "status": "planned",
+      "description": "Auto-discovered feature from repository API routes."
+    },
+    {
+      "name": "Health Feature",
+      "status": "planned",
+      "description": "Auto-discovered feature from repository API routes."
+    },
+    {
+      "name": "Report Feature",
+      "status": "planned",
+      "description": "Auto-discovered feature from repository API routes."
+    }
+  ],
   "prompts": []
 }
