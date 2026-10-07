@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "project": {
+    "name": "Authentify",
+    "repo_url": "Ameya1605/Authentify",
+    "project_type": "saas",
+    "is_ai_enabled": true
+  },
+  "structure": "monorepo",
+  "apps": [
+    "api",
+    "web"
+  ],
+  "enums": [],
+  "relations": [],
+  "database": [],
+  "endpoints": [],
+  "ui_components": [],
+  "features": [],
+  "prompts": []
+}
